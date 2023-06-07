@@ -1,0 +1,8 @@
+p::first-letter {
+  font-family: Arial;
+  color: red;
+  font-size: 2em;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}

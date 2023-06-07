@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Селекторы в CSS3</title>
+    <style>
+        :checked+span{
+            color:red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <input type="checkbox" checked name="html5"/><span>HTML5</span>
+    </p>
+    <p>
+        <input type="checkbox" checked name="java"/><span>Java</span>
+    </p>
+    <h2>укажите пол</h2>
+    <p>
+        <input type="radio" value="man" checked name="gender"/><span>Мужской</span>
+    </p>
+    <p>
+        <input type="radio" value="girl" checked name="gender"/><span>Женский</span>
+    </p>
+</body>
+</html>

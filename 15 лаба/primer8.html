@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>lang</title>
+    <style>
+       p {
+        font-size: 150%;
+       }
+       q:lang(de){
+        quotes: "\201E" "\201C";
+       }
+       q:lang(en){
+        quotes: '\201C' '\201D';
+       }
+       q:lang(fr), q:lang(ru) {
+        quotes: "\00AB" "\00BB";
+       }
+    </style>
+</head>
+<body>
+    <p>Цитата на франц яз: <q lang="fr"> ce que feeme veut</q>.</p>
+    <p>Цитата на немецк яз: <q lang="de"> der mensch versuche</q>.</p>
+    <p>Цитата на англ яз: <q lang="en"> hello</q>.</p>
+</body>
+</html>

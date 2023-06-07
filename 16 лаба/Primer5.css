@@ -1,0 +1,20 @@
+.ls1 {
+  letter-spacing: -1px;
+}
+
+.ls2 {
+  letter-spacing: 1px;
+}
+
+.ws1 {
+  word-spacing: -1px;
+}
+
+.ws2 {
+  word-spacing: 1px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 25px;
+}

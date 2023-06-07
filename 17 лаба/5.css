@@ -1,0 +1,7 @@
+div{height: 250px;
+width: 250px;
+border: 2px solid black;
+margin: 5px;
+}
+#s1{background-image: url(1.jpg);background-size:250px 250px;}
+#s2{background-image: url(1.jpg); background-size:100px 100px;}

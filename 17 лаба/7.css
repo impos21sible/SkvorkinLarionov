@@ -1,0 +1,11 @@
+div{height: 250px;
+width: 300px;
+margin: 10px;
+color: skyblue;
+text-align: center;
+border: 1px solid #ccc;
+background-color: #eee;
+background-image: url(1.jpg);
+background-repeat: no-repeat;
+background-position: right 35px;
+ }
